@@ -25,7 +25,7 @@ impl ConnectionV2 {
     pub fn log_close(&self) {
         msg!("Closed from {} to {}", self.from, self.to);
     }
-    // pub fn log_close(&self) {
-    //     msg!("Closed from {} to {}", self.from, self.to);
-    // }
+    pub fn log_close(&self) {
+        msg!("Closed from {} to {}", self.from, self.to);
+    }
 }
